@@ -11,16 +11,26 @@
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <main>
-        <p>This is a simple boilerplate setup.</p>
-        <button id="actionButton">Click Me</button>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
-    <script src="script.js"></script>
+    <!--- Header top: logo, dark mode button, nav menu --->
+         <!--- Logo--->
+    <div class="header-container">
+        <div class="header-item">
+            <img id="logo" src="images/stLogo-dark.png" width=auto/>
+        </div>      
+        <!--- Nav menu ---> 
+        <div class="navbar">
+            <ul>  
+                <!--- Reduce motion button --->
+                <button id="reduce-motion-btn">Reduce Motion</button>
+                <!--- Dark mode button --->
+                <button id="theme-button">Activate Dark Mode</button>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </div>
+    </div>
+
 </body>
 </html>
