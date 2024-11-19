@@ -1,40 +1,595 @@
-/* Reset and basic styling */
+/* Link definition order rule -> a:link and a:visited, a:hover, a:active */
+/* Global styling */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #007BFF;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-}
-
-main {
-    padding: 1rem;
-}
-
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
+    background-color: rgba(211, 249, 211, 1);
+    font-family: Arial;
+    text-align: left;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%
+  }
+  
+  /* Link styles */
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: orange;
+  }
+  
+  button {
+    background-color: green;
     cursor: pointer;
-    border-radius: 4px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-footer {
+    color: white;
+    margin: 5px;
+    outline: none; 
+    border-radius: 10px;
+    padding: 10px 20px;
     text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #f1f1f1;
-    color: #666;
-}
+  }
+  button:hover {
+    background-color: orange;
+  }
+  body, .navbar, .footer {
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* Header */
+      /* Header container */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .header-button:hover {
+    background-color: orange;
+  }
+  .header-item {
+    display: flex;
+  }
+      /* Header logo spacing */
+  .header-item:nth-of-type(1) {
+    width: 25%;
+    text-align: left;
+  }
+      /* Header menu nav spacing */
+  .header-item:nth-of-type(2){
+    width: 75%;
+    text-align: right;
+  }
+      /* Header dark mode toggle button */
+  #theme-button {
+      text-transform: uppercase;  
+      background-color: gray;  
+  }
+      /* Change text globally to white */
+  .dark-mode {
+      background-color: black; 
+      color: white; 
+    }
+  .dark-mode #logo {
+      filter: brightness(0) invert(1); 
+    }
+  .dark-mode .navbar ul li a {
+      color: white;
+    }
+  .dark-mode button {
+      background-color: white;
+      color: black;
+    }
+  
+  
+  
+      /* Header nav bar menu */
+  .navbar {
+    position: fixed;
+    overflow: hidden; 
+    top: 0;
+    right: 0;
+    width: auto;
+    margin-bottom: 5px;  
+    margin-top: 20px;
+    padding-right: 20px;  
+  }
+      /* Unordered list styling */
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;  
+    list-style-type: none; 
+  
+  }
+      /* Navbar list items */
+  .navbar ul li {
+    margin: 0 10px; /
+  }
+      /* Navbar links */
+  .navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;  
+    display: block;  
+    font-weight: bold;
+  }
+      /* Hover navbar links */
+  .navbar ul li a:hover {
+    color: #ff9900;  
+  }
+  
+  
+  
+  
+  /* Hero Section */
+  .hero-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;  
+    height: 100vh;  
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;  
+  }
+      /* Hero background image */
+  #hero-img {
+    width: 100%;  
+    height: 80vh;  
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+      /* Hero text and green box */
+  .hero-text {
+    background-color: rgba(144, 238, 144, 0.6);
+    padding: 20px;
+    max-width: 50vh;  
+    color: black;
+    font-size: 24px; 
+    font-weight: bold;
+  }
+  .hero-button {
+    font-size: 18px;
+  }
+  
+  
+  
+  
+  /* Featured categories */
+            /* Featured categories: buttons */
+    button {
+      font-weight: bold;
+      margin: 5px;  
+      border: none;  
+      font-size: 12px;  
+      border-radius: 25px;  
+    }
+           /* Featured categories: buttons */
+    .category-item button {
+      margin-top: 10px;  
+      display: inline-block;  
+      width: auto; 
+      outline: none; 
+    } 
+           /* Featured categories: box */
+    .categories {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 30px;
+     text-align: center;
+    }
+            /* Featured categories: titles h2 */
+    .categories h2 {
+     width: 100%;
+     text-align: center;
+     margin-bottom: 20px;
+    }
+            /* Featured categories: details */
+    .category-item {
+      flex: 1 1 30%; 
+      margin: 10px;  
+      padding: 20px;  
+      background-color: rgba(220, 220, 220, 0.8);  
+      border: 2px solid darkgreen;  
+      display: flex;  
+      flex-direction: column;  
+      align-items: center;  
+      text-align: center; 
+    }
+           /* Featured categories: titles h4 */
+    .category-item h4 {
+      color: darkgreen;
+      width: 100%;
+    }
+           /* Featured categories: icons */
+    .category-item img.category-icon {
+      width: 150px;  
+      height: 150px;  
+      object-fit: cover; 
+      border-radius: 50%;  
+      margin-bottom: 10px; 
+    }
+    .category-item button {
+      color: black; 
+      font-weight: bold;
+      margin: 5px;  
+      border: none;  
+      font-size: 12px;  
+      border-radius: 25px;  
+      margin-top: 10px;  
+    }
+   
+  
+  
+  /* About Section */
+  .about-section {
+    background-color: #f7faf9;
+    padding: 40px 20px;
+    text-align: center;
+    padding: 50px; 
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #2d3748;
+    margin-bottom: 20px;
+  }
+           /* About verbiage  */
+  .about-section p {
+    font-size: 1.125rem;
+    color: #4a5568;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+           /* About header  */
+  .about-section h3 {
+    font-size: 1.75rem;
+    color: #2d3748;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+           /* About list */
+  .about-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+           /* About list details */
+  .about-section ul li {
+    font-size: 1.125rem;
+    color: #4a5568;
+    margin-bottom: 10px;
+    line-height: 1.8;
+  }
+           /* About button */
+  .about-section .cta-button {
+    font-size: 1.25rem;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  
+  
+  /* Video */
+  .businesses-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+  }
+           /* Video styles */
+  .video-container {
+    flex: 1;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    max-width: 100%;
+  }
+           /* List styles */
+  .why-sustaintulsa {
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 50px;
+  }
+  .why-sustaintulsa h3 {
+    font-size: 1.75rem;
+  }
+  .why-sustaintulsa ul li {
+    font-size: 1.125rem;
+    color: #4a5568;
+    margin-bottom: 10px;
+    line-height: 1.8;
+  }
+  .why-sustaintulsa p {
+    font-size: 1.125rem;
+    color: #4a5568;
+    margin-top: 20px;
+  }
+  .why-sustaintulsa a {
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  /* Petition */
+  #petition {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+         /* Container for paragraph + signatures */
+  .petition-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;   
+  }
+        /* Left justify signatures */
+  .signatures {
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;   
+  }
+        /* Error styling */
+  .error {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    background: pink;
+  }
+         /* Paragraph */
+  .petition-p {
+    flex:  1; 
+    font-size: 1rem;
+    line-height: 1.6; 
+    color: #555;
+    text-align: left;
+  }
+         /* Petition header */
+  .petition h2 {
+    color: darkgreen;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+          /* Petition counter */
+  #counter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  } 
+          /* Petition description */
+  .petition-description {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+          /* Signatures */
+  .signatures p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: darkgreen;
+    flex: 1;
+  }
+          /* Petition form */
+  .petition-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+          /* Input */
+  .petition-form input {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+          /* Button */
+  .petition-form button {
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+  
+  /* Scroll animation! */
+      /* First state - revealable elements */
+  .revealable {
+    position: relative;
+    transform: translateY(150px);  
+    opacity: 0;   
+    transition: all 2s ease;   
+  }
+      /* Active state - revealable elements */
+  .revealable.active {
+    transform: translateY(0);  
+    opacity: 1;   
+  }
+      /* Nav on top always*/
+  .navbar {
+    position: relative;
+    z-index: 10;  
+  }
+  
+  
+  
+  
+  /* Plant modal */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+  }
+      /* Modal box */
+  .modal-content {
+    background-color: lightsteelblue;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Change modal "box" dimensions */
+    max-width: 50%; 
+    max-height: 70%;
+  }
+  #modal-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #thanks-modal-content {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  #modal-image {
+    max-width: 70%;
+    height: auto;
+    margin-top: 20px;
+  }
+  #close-modal-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Footer */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray; 
+    color: white;
+    text-align: center;
+    padding: 2px;
+    z-index: 1000; 
+    position: relative;
+  }
+          /* Footer links */
+  .footer a:link, 
+  .footer a:visited {
+    color: white;
+  }
+  .footer a:hover {
+    color: orange;
+  } 
+  
+  
+  
+  
+  /* > 768px */
+  @media (max-width: 768px) {
+    .container,
+    .header-container,
+    .navbar ul,
+    .hero-container,
+    .petition-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .petition-container {
+      gap: 20px;
+    }
+  
+    .petition-container input,
+    #sign-now-button,
+    .hero-button {
+      width: 100%;
+    }
+  
+    .hero-text {
+      max-width: 90%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .video-container,
+    .why-sustaintulsa {
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* > 480px */
+  @media (max-width: 480px) {
+    .container {
+      width: 95%;
+      padding: 5px;
+    }
+  
+    button {
+      width: 40px;
+      height: 35px;
+      font-size: 16px;
+    }
+  
+    #like-count {
+      font-size: 16px;
+      width: auto;
+    }
+  
+    #post {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .petition-container {
+      gap: 15px;
+    }
+  
+    .hero-container {
+      gap: 20px;
+    }
+  
+    .hero-buttons {
+      gap: 10px;
+    }
+  }
+  
+  
