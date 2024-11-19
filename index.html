@@ -31,19 +31,143 @@
             </ul> 
         </div>
     </div>
-        <!--- Hero section --->
-        <div class="hero-container revealable">
-            <div class="hero-item">
-                <img id="hero-img" src="images/background.png"/>
-            </div>
-            <div class="hero-text">
-                <h1>We connect Tulsans to a Greener Tomorrow</h1>
-                <h3>Find Sustainable Solutions in Your Backyard</h3>
-            </div>
-            <a href="#petition">
-                <button class="hero-button" type="button">Sign the Petition</button>
-            </a>    
-        </div>
 
+    <!--- Hero section --->
+    <div class="hero-container revealable">
+        <div class="hero-item">
+            <img id="hero-img" src="images/background.png"/>
+        </div>
+        <div class="hero-text">
+            <h1>We connect Tulsans to a Greener Tomorrow</h1>
+            <h3>Find Sustainable Solutions in Your Backyard</h3>
+        </div>
+        <a href="#petition">
+            <button class="hero-button" type="button">Sign the Petition</button>
+        </a>    
+    </div>
+
+    <!-- Featured Categories -->
+    <section class="categories revealable">
+        <h2>Featured Categories</h2>
+        <div class="category-item">
+            <img src="images/business.png" alt="Sustainable Businesses" class="category-icon">
+            <h4>Sustainable Businesses</h4>
+            <button type="button">Shop Local, Shop Green</button>
+            <p>Explore eco-conscious shops, restaurants, and service providers that prioritize sustainability in Tulsa.</p>
+        </div>
+        <div class="category-item">
+            <img src="images/events.png" alt="Sustainable Events" class="category-icon">
+            <h4>Sustainable Events</h4>
+            <button type="button">Find Local Events</button>
+            <p>Attend workshops, clean-up drives, and community events promoting sustainability in Tulsa.</p>
+        </div>
+        <div class="category-item">
+            <img src="images/initiatives.png" alt="Sustainable Initiatives" class="category-icon">
+            <h4>Sustainable Initiatives</h4>
+            <button type="button">Support Initiatives</button>
+            <p>Discover citywide projects and non-profits working toward a greener future.</p>  
+        </div>
+    </section>
+      
+    <!--- About --->
+    <section id="about" class="about-section  revealable">
+        <h2>Why SustainTulsa?</h2>
+        <p>Welcome to <strong>SustainTulsa</strong>, your hub for building a greener, more sustainable future for our community. We are a passionate organization dedicated to connecting Tulsans with local businesses, events, and initiatives that prioritize sustainability. Our goal is to empower individuals, families, and businesses to make conscious choices that promote environmental health, support the local economy, and create a more sustainable city for future generations.</p>
+        <p>At SustainTulsa, we believe in the power of community-driven action. We work tirelessly to highlight eco-conscious shops, restaurants, services, and non-profits in Tulsa that are leading the charge in sustainability. Whether you’re looking to shop local, attend eco-friendly events, or support green initiatives, we provide the tools and resources you need to live sustainably in our beautiful city.</p>
+        <p>Join us as we work together to make Tulsa a model for sustainability—one green choice at a time.</p>
+        <p><em>Together, we can create lasting change and ensure that Tulsa thrives for generations to come.</em></p>
+        <button class="cta-button">Get Involved Today</button>
+    </section>
+
+
+
+
+
+    <!-- Video -->
+    <section id="businesses" class="businesses-container revealable">
+        <div class="video-container">
+            <iframe width="720" height="315" src="https://www.youtube.com/embed/zx04Kl8y4dE?si=qrV4ih1PtySb_8AD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <div class="why-sustaintulsa">
+            <h3>How we help make a difference</h3>
+            <ul>
+                <li><strong>Local Impact:</strong> We focus on highlighting and supporting businesses and initiatives right here in Tulsa, making every action count.</li>
+                <li><strong>Community Focused:</strong> Join a growing community of passionate Tulsans dedicated to reducing our environmental footprint and building a more sustainable future.</li>
+                <li><strong>Sustainability for All:</strong> Whether you are just starting your green journey or are a experienced eco-advocate, SustainTulsa is here to provide the resources and inspiration you need.</li>
+            </ul>
+            <p>Resources to check out: <a href="https://www.sustainabletulsa.org">Sustainable Tulsa</a> and <a href="https://www.epa.gov/sustainability">EPA Sustainability</a>.</p>
+        </div>
+    </section>
+   
+
+    
+    <!-- Petition section -->
+    <section id="petition">
+        <div class="petition">
+            <h2>Sign Our Petition 🧡</h2>
+            <p id="counter"> 🙌 3 people have signed this petition and support our fight to eradicate hunger.</p>
+
+            <div class="petition-container">
+                <div class="petition-p">
+                <p>Sustainable food programs in schools can set a powerful example for future generations. By introducing plant-based and responsibly sourced meals, schools can teach children the importance of eco-friendly food choices. These programs not only reduce carbon footprints but also promote better health and environmental responsibility among young learners.</p>
+                </div>
+        
+              <div class="signatures">
+                <p>🖊️ Deva from Jenks supports this petition</p>
+                <p>🖊️ Maelle from Owasso supports this petition</p>
+                <p>🖊️ Astrid from Tulsa supports this petition</p>
+              </div>
+            </div>
+        
+          <!--- Sign form --->
+          <form class="petition-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" autocomplete="name" />
+
+            <label for="hometown">Hometown</label>
+            <input type="text" id="hometown" placeholder="Hometown" autocomplete="address-level2" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" autocomplete="email" />
+            <!--- Sign button --->
+            <button id="sign-now-button">Sign Now</button>
+          </form>
+        </div>
+    </section>
+
+
+    
+    <!-- Plant modal -->
+    <div id="thanks-modal" class="modal">
+        <div class="modal-content">
+        <div id="modal-text-container">
+            <p id="thanks-modal-content">Thank you for signing the petition!</p>
+            <button id="close-modal-btn">Close</button>
+        </div>
+        <img src="images/plant.jpg" alt="Celebration" id="modal-image" />
+        </div>
+    </div>
+  
+
+
+
+
+    <!-- Contact Section Content - add later
+    <section id="contact">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam commodi ad, praesentium necessitatibus natus mollitia dolorem soluta eos veritatis et? Animi porro neque nulla officia fuga incidunt sunt vitae adipisci!</p>
+    </section>-->
+
+
+    <!--- Footer ---> 
+      <footer class="footer">
+        <p>© 2024 SustainTulsa, Inc. | 
+            <a href="https://www.sustainabletulsa.org">Local Resources</a> | 
+            <a href="https://www.tulsaok.gov/government/departments">City of Tulsa Initiatives</a> | 
+            <a href="https://www.greenbusinessnetwork.org">Green Business Network</a>
+        </p>
+    </footer> 
+    <script src="index.js"></script>
 </body>
+
 </html>
