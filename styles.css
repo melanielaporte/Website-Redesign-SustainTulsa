@@ -476,6 +476,7 @@ body {
     max-width: 70%;
     height: auto;
     margin-top: 20px;
+    transition: transform 0.5s ease;
   }
   #close-modal-btn {
     margin-top: 20px;
@@ -483,7 +484,9 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
   }
-  
+  #modal-image.rotate-animate {
+    animation: rotateIn 0.8s ease-out forwards;
+  }
   
   
   /* Footer */
@@ -591,5 +594,14 @@ body {
       gap: 10px;
     }
   }
+  @keyframes rotateIn {
+    0% {
+      transform: rotate(-180deg) scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+      opacity: 1;
+    }
   
   

@@ -9,9 +9,9 @@ themeButton.addEventListener("click", () => {
 
     // Loop
     if (document.body.classList.contains("dark-mode")) {
-        logo.src = "images/stLogo-light.png"; 
-    } else {
         logo.src = "images/stLogo-dark.png"; 
+    } else {
+        logo.src = "images/stLogo-light.png"; 
     }
 });
 
@@ -122,8 +122,15 @@ const toggleModal = (person) => {
     // Plant image ref
     const modalImage = document.getElementById("modal-image");
 
-    // Change plant image size in modal
-    let scaleFactor = 1;
+    // Rotate image
+    modalImage.classList.add('rotate-animate');
+
+    // Rotate image timer
+    setTimeout(() => {
+      modalImage.classList.remove('rotate-animate');
+     }, 800); 
+
+    // Hide modal after 3 seconds
     modalImage.style.transform = "none";
         // Auto hide modal after 3 seconds
         setTimeout(() => {
