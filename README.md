@@ -21,6 +21,8 @@ By leveraging community resources, data-driven insights, and human-centered desi
 
 
 
+
+
 ## Project Goals
 - Improve access to services for the homeless population in Tulsa.
 - Build a scalable digital platform that can be adapted to other cities.
@@ -36,14 +38,32 @@ By leveraging community resources, data-driven insights, and human-centered desi
 ## How to Contribute
 
 1. Fork the repository.
-2. Clone your forked repository to your local machine.
+2. Clone your forked repository to your local machine/laptop.
 3. Create a new branch (`git checkout -b feature-name`).
 4. Make your changes and commit them (`git commit -am 'Add new feature'`).
 5. Push to the branch (`git push origin feature-name`).
 6. Open a pull request.
 
-## Installation
+## Installation (Coming soon!)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sustainTulsa.git
+### About Me:
+
+- **Columbia University Sophomore** | **BS in Computer Science and Visual Arts**
+- Skilled in Python, JavaScript, Swift, and Full-Stack Development
+- Passionate about Open-Source Projects and Community Building
+- Creator of fun, interactive web-based games
+- Obsessed with sustainability and creative problem-solving
+
+Feel free to check out my other projects on my [GitHub profile!](https://github.com/melanielaporte) 
+
+---
+
+### Let's Connect!
+- [LinkedIn](https://www.linkedin.com/in/melanielaporte/)
+
+---
+
+### Contributions & Feedback:
+
+I’d love to hear your thoughts on this game and any improvements you suggest. Feel free to open an issue or contribute to the project!
+
