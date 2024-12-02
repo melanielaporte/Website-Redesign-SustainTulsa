@@ -1,6 +1,13 @@
 # SustainTulsa
 
-**SustainTulsa** is a digital platform designed to address homelessness in Tulsa, Oklahoma, by leveraging community resources, data-driven insights, and human-centered design principles. The project aims to connect individuals experiencing homelessness with critical resources like housing, job opportunities, and social services, all through an easy-to-use interface.
+**SustainTulsa** is a digital platform designed to address a multitude of social issues occuring in Tulsa, Oklahoma such as
+- Food insecurity
+- Homelessness
+- Connect users with businesses providing sustainable solutions
+
+By leveraging community resources, data-driven insights, and human-centered design principles, the project aims to connect individuals
+
+ experiencing homelessness with critical resources like housing, job opportunities, and social services, all through an easy-to-use interface.
 
 ## Features
 
@@ -15,7 +22,6 @@
 
 
 ## Project Goals
-
 - Improve access to services for the homeless population in Tulsa.
 - Build a scalable digital platform that can be adapted to other cities.
 - Increase community engagement and collaboration among local organizations and service providers.
