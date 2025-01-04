@@ -1,0 +1,12 @@
+Brand Standards
+
+Colors:
+ -Beige #faf7e8 
+ -Light green #9bdda6 
+ -Lilac #f0cdff
+ -Light blue #c8e6e0
+ -Dark brown #592214
+
+Fonts:
+
+
