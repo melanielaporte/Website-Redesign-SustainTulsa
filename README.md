@@ -17,8 +17,6 @@ This is a digital hub connecting the Tulsa, Oklahoma community with sustainable 
 
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** TK
-- **Database:** TK
 - **UI/UX Design:** Figma
 
 ## License
