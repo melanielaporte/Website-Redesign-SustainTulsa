@@ -15,12 +15,6 @@ This is a digital hub connecting the Tulsa, Oklahoma community with sustainable 
 - Connect residents with tools and resources to make green choices.
 - Advocate for systemic change in school food programs to ensure sustainability and health.
 
-## SustainTulsaII New Features
-- **TK:** TK
-- **TK:** TK
-- **TK:** TK
-- **TK:** TK
-
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** TK
