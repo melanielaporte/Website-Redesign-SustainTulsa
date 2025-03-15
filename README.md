@@ -48,7 +48,7 @@ The final redesign was **fully coded and deployed**, significantly improving usa
 
 ### 🚀 Live Demo & Code  
 🔗 [GitHub Repository](https://github.com/melanielaporte/Website-Redesign-SustainTulsa)   
-🔗 [Live Site](https://melanielaporte.github.io/Website-Redesign-SustainTulsa/)  
+🔗 [Live Site](https://melanielaporte.github.io/Website-Redesign-SustainTulsa/)   
 
 ## Results & Impact  
 - **25% faster navigation time** in usability tests.  
