@@ -9,7 +9,7 @@ This project involved a **complete UX overhaul and front-end development**. From
 - **Poor navigation**: Users struggled to find key information.  
 - **Lack of clear calls to action (CTAs)**: Engagement pathways were unclear.  
 - **Inconsistent design**: UI inconsistencies led to a lack of credibility.  
-- **Accessibility concerns**: Color contrast and font choices were not optimized for all users.  
+- **Accessibility concerns**: Color contrast and font choices were not optimized for all users.
 
 ## Goals  
 - Improve navigation and information architecture.  
