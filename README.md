@@ -47,8 +47,8 @@ I conducted usability testing with five participants, gathering feedback on:
 The final redesign was **fully coded and deployed**, significantly improving usability. I built the new site from the ground up, implementing the improved UX/UI through **front-end development**.  
 
 ### 🚀 Live Demo & Code  
-🔗 [GitHub Repository](https://github.com/melanielaporte/Website-Redesign-SustainTulsa)  
-🔗 [Live Site](your-live-site-link)  
+🔗 [GitHub Repository](https://github.com/melanielaporte/Website-Redesign-SustainTulsa)   
+🔗 [Live Site](https://melanielaporte.github.io/Website-Redesign-SustainTulsa/)  
 
 ## Results & Impact  
 - **25% faster navigation time** in usability tests.  
@@ -60,8 +60,7 @@ The final redesign was **fully coded and deployed**, significantly improving usa
 - **UI/UX Design:** Figma  
 
 ## License  
-This project is licensed under the **MIT License**. See the [LICENSE](your-license-link) file for more details.  
-
+This project is licensed under the **MIT License**. 
 ## Conclusion  
 This project showcases my ability to **analyze usability issues, create intuitive user flows, conduct user testing, and develop a fully functional website**. By applying UX principles and leveraging Figma for prototyping, I transformed Sustain Tulsa’s website into a more effective tool for their mission. Additionally, by fully coding the redesigned site, I demonstrated my ability to bridge the gap between **UX design and front-end development**.
 
