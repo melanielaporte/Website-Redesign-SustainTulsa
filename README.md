@@ -4,6 +4,7 @@
 Sustain Tulsa is a nonprofit organization dedicated to promoting sustainability initiatives in Tulsa. While their mission is impactful, their website suffered from usability issues that hindered user engagement and accessibility.
 
 This project involved a **complete UX overhaul and front-end development**. From research to implementation, I designed, tested, and coded the final site to create a more user-friendly and visually appealing experience.
+![Screenshot Capture - 2025-04-13 - 05-11-09](https://github.com/user-attachments/assets/c6224e2a-92ae-4c94-8714-662c669e1617)
 
 ## Problem Statement  
 - **Poor navigation**: Users struggled to find key information.  
